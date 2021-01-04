@@ -1,0 +1,11 @@
+{
+  // 编译选项
+  "compilerOptions": {
+    "target": "es2015", //编译代码使用哪种js标准
+    "module": "CommonJS", //模块化标准
+    "lib": ["ES2016"], //js使用库（根据运行环境决定）
+    "outDir": "./dist" //编译结果输入
+  },
+  "include": ["./src"] //需要编译那个文件的代码
+  // "files": [], //需要编译的文件
+}
